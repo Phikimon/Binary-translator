@@ -1,0 +1,5 @@
+#!/bin/bash
+EXAMPLE_FOLDER=./example
+./BinaryTranslator > $EXAMPLE_FOLDER/RawFile < $EXAMPLE_FOLDER/example.bin
+avr-objcopy -I binary -O elf32-avr $EXAMPLE_FOLDER/RawFile $EXAMPLE_FOLDER/ElfFile
+avr-objdump -D $EXAMPLE_FOLDER/ElfFile > $EXAMPLE_FOLDER/DisassemblyFile
