@@ -1,0 +1,778 @@
+Optimizations start
+
+CPU ID = fffffffa
+_____________________________________________________
+cmd = 4(CALL)
+args = {43,0,0}
+argTypes = {1,0,0}
+phikiProgramSize = 0
+  avrProgramSize = 36
+cmdSize = 1
+
+afterOptimizationAddress = 0
+
+isActualAddress[0] = 0
+1101 0000 0010 1011 | d02b
+_____________________________________________________
+_____________________________________________________
+cmd = 7(OUT)
+args = {0,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 1
+  avrProgramSize = 37
+cmdSize = 1
+
+afterOptimizationAddress = 1
+
+isActualAddress[0] = 0
+1011 1011 0000 1011 | bb0b
+_____________________________________________________
+_____________________________________________________
+cmd = 48(JMP)
+args = {59,0,0}
+argTypes = {1,0,0}
+phikiProgramSize = 2
+  avrProgramSize = 38
+cmdSize = 1
+
+afterOptimizationAddress = 2
+
+isActualAddress[0] = 0
+1100 0000 0011 1011 | c03b
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {1,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 3
+  avrProgramSize = 39
+cmdSize = 1
+
+afterOptimizationAddress = 3
+
+isActualAddress[0] = 0
+1001 0011 0001 1111 | 931f
+_____________________________________________________
+_____________________________________________________
+cmd = 2(INR)
+args = {4,2,0}
+argTypes = {2,1,0}
+phikiProgramSize = 4
+  avrProgramSize = 40
+cmdSize = 1
+
+afterOptimizationAddress = 4
+
+isActualAddress[0] = 0
+1110 0000 0100 0010 | e042
+_____________________________________________________
+_____________________________________________________
+cmd = 3(MOV)
+args = {3,4,0}
+argTypes = {2,2,0}
+phikiProgramSize = 5
+  avrProgramSize = 41
+cmdSize = 1
+
+afterOptimizationAddress = 6
+
+isActualAddress[0] = 0
+0010 1111 0011 0100 | 2f34
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {2,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 6
+  avrProgramSize = 42
+cmdSize = 1
+
+afterOptimizationAddress = 7
+
+isActualAddress[0] = 0
+1001 0001 0010 1111 | 912f
+_____________________________________________________
+_____________________________________________________
+cmd = 28(LGEBIN)
+args = {2,3,0}
+argTypes = {2,2,0}
+phikiProgramSize = 7
+  avrProgramSize = 43
+cmdSize = 5
+
+afterOptimizationAddress = 10
+
+isActualAddress[0] = 0
+isActualAddress[1] = 1
+isActualAddress[2] = 0
+isActualAddress[3] = 1
+isActualAddress[4] = 0
+0001 0111 0010 0011 | 1723
+1111 0100 0001 0100 | f414
+1110 0000 0010 0000 | e020
+1100 0000 0000 0001 | c001
+1110 0000 0010 0001 | e021
+_____________________________________________________
+_____________________________________________________
+cmd = 49(JE)
+args = {2,0,39}
+argTypes = {2,1,1}
+phikiProgramSize = 8
+  avrProgramSize = 48
+cmdSize = 2
+
+afterOptimizationAddress = 11
+
+isActualAddress[0] = 0
+isActualAddress[1] = 0
+0011 0000 0010 0000 | 3020
+1111 0001 0011 1001 | f139
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {1,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 9
+  avrProgramSize = 50
+cmdSize = 1
+
+afterOptimizationAddress = 12
+
+isActualAddress[0] = 0
+1001 0011 0001 1111 | 931f
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {0,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 10
+  avrProgramSize = 51
+cmdSize = 1
+
+afterOptimizationAddress = 13
+
+isActualAddress[0] = 0
+1001 0011 0000 1111 | 930f
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {1,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 11
+  avrProgramSize = 52
+cmdSize = 1
+
+afterOptimizationAddress = 14
+
+isActualAddress[0] = 0
+1001 0011 0001 1111 | 931f
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {2,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 12
+  avrProgramSize = 53
+cmdSize = 1
+
+afterOptimizationAddress = 15
+
+isActualAddress[0] = 0
+1001 0011 0010 1111 | 932f
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {3,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 13
+  avrProgramSize = 54
+cmdSize = 1
+
+afterOptimizationAddress = 16
+
+isActualAddress[0] = 0
+1001 0011 0011 1111 | 933f
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {1,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 14
+  avrProgramSize = 55
+cmdSize = 1
+
+afterOptimizationAddress = 17
+
+isActualAddress[0] = 0
+1001 0011 0001 1111 | 931f
+_____________________________________________________
+_____________________________________________________
+cmd = 2(INR)
+args = {4,1,0}
+argTypes = {2,1,0}
+phikiProgramSize = 15
+  avrProgramSize = 56
+cmdSize = 1
+
+afterOptimizationAddress = 18
+
+isActualAddress[0] = 0
+1110 0000 0100 0001 | e041
+_____________________________________________________
+_____________________________________________________
+cmd = 3(MOV)
+args = {3,4,0}
+argTypes = {2,2,0}
+phikiProgramSize = 16
+  avrProgramSize = 57
+cmdSize = 1
+
+afterOptimizationAddress = 20
+
+isActualAddress[0] = 0
+0010 1111 0011 0100 | 2f34
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {2,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 17
+  avrProgramSize = 58
+cmdSize = 1
+
+afterOptimizationAddress = 21
+
+isActualAddress[0] = 0
+1001 0001 0010 1111 | 912f
+_____________________________________________________
+_____________________________________________________
+cmd = 22(SUBBIN)
+args = {2,3,0}
+argTypes = {2,2,0}
+phikiProgramSize = 18
+  avrProgramSize = 59
+cmdSize = 1
+
+afterOptimizationAddress = 22
+
+isActualAddress[0] = 0
+0001 1011 0010 0011 | 1b23
+_____________________________________________________
+_____________________________________________________
+cmd = 3(MOV)
+args = {1,2,0}
+argTypes = {2,2,0}
+phikiProgramSize = 19
+  avrProgramSize = 60
+cmdSize = 1
+
+afterOptimizationAddress = 24
+
+isActualAddress[0] = 0
+0010 1111 0001 0010 | 2f12
+_____________________________________________________
+_____________________________________________________
+cmd = 4(CALL)
+args = {3,0,0}
+argTypes = {1,0,0}
+phikiProgramSize = 20
+  avrProgramSize = 61
+cmdSize = 1
+
+afterOptimizationAddress = 25
+
+isActualAddress[0] = 0
+1101 0000 0000 0011 | d003
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {2,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 21
+  avrProgramSize = 62
+cmdSize = 1
+
+afterOptimizationAddress = 26
+
+isActualAddress[0] = 0
+1001 0001 0010 1111 | 912f
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {1,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 22
+  avrProgramSize = 63
+cmdSize = 1
+
+afterOptimizationAddress = 27
+
+isActualAddress[0] = 0
+1001 0001 0001 1111 | 911f
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {2,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 23
+  avrProgramSize = 64
+cmdSize = 1
+
+afterOptimizationAddress = 28
+
+isActualAddress[0] = 0
+1001 0001 0010 1111 | 912f
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {3,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 24
+  avrProgramSize = 65
+cmdSize = 1
+
+afterOptimizationAddress = 29
+
+isActualAddress[0] = 0
+1001 0001 0011 1111 | 913f
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {0,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 25
+  avrProgramSize = 66
+cmdSize = 1
+
+afterOptimizationAddress = 30
+
+isActualAddress[0] = 0
+1001 0011 0000 1111 | 930f
+_____________________________________________________
+_____________________________________________________
+cmd = 3(MOV)
+args = {0,2,0}
+argTypes = {2,2,0}
+phikiProgramSize = 26
+  avrProgramSize = 67
+cmdSize = 1
+
+afterOptimizationAddress = 31
+
+isActualAddress[0] = 0
+0010 1111 0000 0010 | 2f02
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {3,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 27
+  avrProgramSize = 68
+cmdSize = 1
+
+afterOptimizationAddress = 32
+
+isActualAddress[0] = 0
+1001 0001 0011 1111 | 913f
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {2,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 28
+  avrProgramSize = 69
+cmdSize = 1
+
+afterOptimizationAddress = 33
+
+isActualAddress[0] = 0
+1001 0001 0010 1111 | 912f
+_____________________________________________________
+_____________________________________________________
+cmd = 23(MULBIN)
+args = {2,3,0}
+argTypes = {2,2,0}
+phikiProgramSize = 29
+  avrProgramSize = 70
+cmdSize = 2
+
+afterOptimizationAddress = 34
+
+isActualAddress[0] = 0
+isActualAddress[1] = 0
+1001 1111 0010 0011 | 9f23
+0010 1101 0010 0000 | 2d20
+_____________________________________________________
+_____________________________________________________
+cmd = 3(MOV)
+args = {0,2,0}
+argTypes = {2,2,0}
+phikiProgramSize = 30
+  avrProgramSize = 72
+cmdSize = 1
+
+afterOptimizationAddress = 36
+
+isActualAddress[0] = 0
+0010 1111 0000 0010 | 2f02
+_____________________________________________________
+_____________________________________________________
+cmd = 5(RET)
+args = {0,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 31
+  avrProgramSize = 73
+cmdSize = 1
+
+afterOptimizationAddress = 37
+
+isActualAddress[0] = 0
+1001 0101 0000 1000 | 9508
+_____________________________________________________
+_____________________________________________________
+cmd = 48(JMP)
+args = {43,0,0}
+argTypes = {1,0,0}
+phikiProgramSize = 32
+  avrProgramSize = 74
+cmdSize = 1
+
+afterOptimizationAddress = 38
+
+isActualAddress[0] = 0
+1100 0000 0010 1011 | c02b
+_____________________________________________________
+_____________________________________________________
+cmd = 2(INR)
+args = {4,1,0}
+argTypes = {2,1,0}
+phikiProgramSize = 33
+  avrProgramSize = 75
+cmdSize = 1
+
+afterOptimizationAddress = 39
+
+isActualAddress[0] = 0
+1110 0000 0100 0001 | e041
+_____________________________________________________
+_____________________________________________________
+cmd = 3(MOV)
+args = {0,4,0}
+argTypes = {2,2,0}
+phikiProgramSize = 34
+  avrProgramSize = 76
+cmdSize = 1
+
+afterOptimizationAddress = 41
+
+isActualAddress[0] = 0
+0010 1111 0000 0100 | 2f04
+_____________________________________________________
+_____________________________________________________
+cmd = 5(RET)
+args = {0,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 35
+  avrProgramSize = 77
+cmdSize = 1
+
+afterOptimizationAddress = 42
+
+isActualAddress[0] = 0
+1001 0101 0000 1000 | 9508
+_____________________________________________________
+_____________________________________________________
+cmd = 6(IN)
+args = {1,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 36
+  avrProgramSize = 78
+cmdSize = 3
+
+afterOptimizationAddress = 43
+
+isActualAddress[0] = 0
+isActualAddress[1] = 1
+isActualAddress[2] = 0
+1001 1011 1000 0111 | 9b87
+1100 1111 1111 1110 | cffe
+1011 0011 0001 0011 | b313
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {0,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 37
+  avrProgramSize = 81
+cmdSize = 1
+
+afterOptimizationAddress = 44
+
+isActualAddress[0] = 0
+1001 0011 0000 1111 | 930f
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {1,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 38
+  avrProgramSize = 82
+cmdSize = 1
+
+afterOptimizationAddress = 45
+
+isActualAddress[0] = 0
+1001 0011 0001 1111 | 931f
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {2,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 39
+  avrProgramSize = 83
+cmdSize = 1
+
+afterOptimizationAddress = 46
+
+isActualAddress[0] = 0
+1001 0011 0010 1111 | 932f
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {3,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 40
+  avrProgramSize = 84
+cmdSize = 1
+
+afterOptimizationAddress = 49
+
+isActualAddress[0] = 0
+1001 0011 0011 1111 | 933f
+_____________________________________________________
+_____________________________________________________
+cmd = 4(CALL)
+args = {3,0,0}
+argTypes = {1,0,0}
+phikiProgramSize = 41
+  avrProgramSize = 85
+cmdSize = 1
+
+afterOptimizationAddress = 50
+
+isActualAddress[0] = 0
+1101 0000 0000 0011 | d003
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {2,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 42
+  avrProgramSize = 86
+cmdSize = 1
+
+afterOptimizationAddress = 51
+
+isActualAddress[0] = 0
+1001 0001 0010 1111 | 912f
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {1,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 43
+  avrProgramSize = 87
+cmdSize = 1
+
+afterOptimizationAddress = 52
+
+isActualAddress[0] = 0
+1001 0001 0001 1111 | 911f
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {2,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 44
+  avrProgramSize = 88
+cmdSize = 1
+
+afterOptimizationAddress = 53
+
+isActualAddress[0] = 0
+1001 0001 0010 1111 | 912f
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {3,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 45
+  avrProgramSize = 89
+cmdSize = 1
+
+afterOptimizationAddress = 54
+
+isActualAddress[0] = 0
+1001 0001 0011 1111 | 913f
+_____________________________________________________
+_____________________________________________________
+cmd = 35(PUSH)
+args = {0,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 46
+  avrProgramSize = 90
+cmdSize = 1
+
+afterOptimizationAddress = 55
+
+isActualAddress[0] = 0
+1001 0011 0000 1111 | 930f
+_____________________________________________________
+_____________________________________________________
+cmd = 3(MOV)
+args = {0,2,0}
+argTypes = {2,2,0}
+phikiProgramSize = 47
+  avrProgramSize = 91
+cmdSize = 1
+
+afterOptimizationAddress = 56
+
+isActualAddress[0] = 0
+0010 1111 0000 0010 | 2f02
+_____________________________________________________
+_____________________________________________________
+cmd = 34(POP)
+args = {0,0,0}
+argTypes = {2,0,0}
+phikiProgramSize = 48
+  avrProgramSize = 92
+cmdSize = 1
+
+afterOptimizationAddress = 57
+
+isActualAddress[0] = 0
+1001 0001 0000 1111 | 910f
+_____________________________________________________
+_____________________________________________________
+cmd = 5(RET)
+args = {0,0,0}
+argTypes = {0,0,0}
+phikiProgramSize = 49
+  avrProgramSize = 93
+cmdSize = 1
+
+afterOptimizationAddress = 58
+
+isActualAddress[0] = 0
+1001 0101 0000 1000 | 9508
+_____________________________________________________
+_____________________________________________________
+cmd = 0(NOP)
+args = {0,0,0}
+argTypes = {0,0,0}
+phikiProgramSize = 50
+  avrProgramSize = 94
+cmdSize = 1
+
+afterOptimizationAddress = 59
+
+isActualAddress[0] = 0
+0000 0000 0000 0000 | 0000
+_____________________________________________________
+1100 0000 0001 0100 | c014
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1001 0101 0001 1000 | 9518
+1110 0101 0000 1111 | e50f
+1011 1111 0000 1101 | bf0d
+1110 0000 0000 0100 | e004
+1011 1111 0000 1110 | bf0e
+1110 0000 0000 0000 | e000
+1011 1011 0000 0100 | bb04
+1110 0000 0000 0000 | e000
+1011 1011 0000 0101 | bb05
+1110 1111 0000 1111 | ef0f
+1011 1011 0000 1010 | bb0a
+1110 1010 0000 1010 | ea0a
+1011 1011 0000 1011 | bb0b
+1001 1000 1000 1111 | 988f
+1001 1000 1001 0111 | 9897
+1110 0000 0000 0000 | e000
+1101 0000 0010 1001 | d029
+1011 1011 0000 1011 | bb0b
+1100 0000 0011 0111 | c037
+1001 0011 0001 1111 | 931f
+1110 0000 0100 0010 | e042
+0010 1111 0011 0100 | 2f34
+1001 0001 0010 1111 | 912f
+0001 0111 0010 0011 | 1723
+1111 0100 0001 0100 | f414
+1110 0000 0010 0000 | e020
+1100 0000 0000 0001 | c001
+1110 0000 0010 0001 | e021
+0011 0000 0010 0000 | 3020
+1111 0000 1100 1001 | f0c9
+1001 0011 0001 1111 | 931f
+1001 0011 0000 1111 | 930f
+1001 0011 0001 1111 | 931f
+1001 0011 0010 1111 | 932f
+1001 0011 0011 1111 | 933f
+1001 0011 0001 1111 | 931f
+1110 0000 0100 0001 | e041
+0010 1111 0011 0100 | 2f34
+1001 0001 0010 1111 | 912f
+0001 1011 0010 0011 | 1b23
+0010 1111 0001 0010 | 2f12
+1101 1111 1110 1001 | dfe9
+1001 0001 0010 1111 | 912f
+1001 0001 0001 1111 | 911f
+1001 0001 0010 1111 | 912f
+1001 0001 0011 1111 | 913f
+1001 0011 0000 1111 | 930f
+0010 1111 0000 0010 | 2f02
+1001 0001 0011 1111 | 913f
+1001 0001 0010 1111 | 912f
+1001 1111 0010 0011 | 9f23
+0010 1101 0010 0000 | 2d20
+0010 1111 0000 0010 | 2f02
+1001 0101 0000 1000 | 9508
+1100 0000 0000 0011 | c003
+1110 0000 0100 0001 | e041
+0010 1111 0000 0100 | 2f04
+1001 0101 0000 1000 | 9508
+1001 1011 1000 0111 | 9b87
+1100 1111 1111 1110 | cffe
+1011 0011 0001 0011 | b313
+1001 0011 0000 1111 | 930f
+1001 0011 0001 1111 | 931f
+1001 0011 0010 1111 | 932f
+1001 0011 0011 1111 | 933f
+1101 1111 1101 0001 | dfd1
+1001 0001 0010 1111 | 912f
+1001 0001 0001 1111 | 911f
+1001 0001 0010 1111 | 912f
+1001 0001 0011 1111 | 913f
+1001 0011 0000 1111 | 930f
+0010 1111 0000 0010 | 2f02
+1001 0001 0000 1111 | 910f
+1001 0101 0000 1000 | 9508
+0000 0000 0000 0000 | 0000
+1100 1111 1100 0100 | cfc4

@@ -1,0 +1,103 @@
+
+./example/ElfFile:     file format elf32-avr
+
+
+Disassembly of section .data:
+
+00000000 <_binary___example_RawFile_start>:
+   0:	14 c0       	rjmp	.+40     	; 0x2a <_binary___example_RawFile_start+0x2a>
+   2:	18 95       	reti
+   4:	18 95       	reti
+   6:	18 95       	reti
+   8:	18 95       	reti
+   a:	18 95       	reti
+   c:	18 95       	reti
+   e:	18 95       	reti
+  10:	18 95       	reti
+  12:	18 95       	reti
+  14:	18 95       	reti
+  16:	18 95       	reti
+  18:	18 95       	reti
+  1a:	18 95       	reti
+  1c:	18 95       	reti
+  1e:	18 95       	reti
+  20:	18 95       	reti
+  22:	18 95       	reti
+  24:	18 95       	reti
+  26:	18 95       	reti
+  28:	18 95       	reti
+  2a:	0f e5       	ldi	r16, 0x5F	; 95
+  2c:	0d bf       	out	0x3d, r16	; 61
+  2e:	04 e0       	ldi	r16, 0x04	; 4
+  30:	0e bf       	out	0x3e, r16	; 62
+  32:	00 e0       	ldi	r16, 0x00	; 0
+  34:	04 bb       	out	0x14, r16	; 20
+  36:	00 e0       	ldi	r16, 0x00	; 0
+  38:	05 bb       	out	0x15, r16	; 21
+  3a:	0f ef       	ldi	r16, 0xFF	; 255
+  3c:	0a bb       	out	0x1a, r16	; 26
+  3e:	0a ea       	ldi	r16, 0xAA	; 170
+  40:	0b bb       	out	0x1b, r16	; 27
+  42:	8f 98       	cbi	0x11, 7	; 17
+  44:	97 98       	cbi	0x12, 7	; 18
+  46:	00 e0       	ldi	r16, 0x00	; 0
+  48:	29 d0       	rcall	.+82     	; 0x9c <_binary___example_RawFile_start+0x9c>
+  4a:	0b bb       	out	0x1b, r16	; 27
+  4c:	37 c0       	rjmp	.+110    	; 0xbc <_binary___example_RawFile_start+0xbc>
+  4e:	1f 93       	push	r17
+  50:	42 e0       	ldi	r20, 0x02	; 2
+  52:	34 2f       	mov	r19, r20
+  54:	2f 91       	pop	r18
+  56:	23 17       	cp	r18, r19
+  58:	14 f4       	brge	.+4      	; 0x5e <_binary___example_RawFile_start+0x5e>
+  5a:	20 e0       	ldi	r18, 0x00	; 0
+  5c:	01 c0       	rjmp	.+2      	; 0x60 <_binary___example_RawFile_start+0x60>
+  5e:	21 e0       	ldi	r18, 0x01	; 1
+  60:	20 30       	cpi	r18, 0x00	; 0
+  62:	c9 f0       	breq	.+50     	; 0x96 <_binary___example_RawFile_start+0x96>
+  64:	1f 93       	push	r17
+  66:	0f 93       	push	r16
+  68:	1f 93       	push	r17
+  6a:	2f 93       	push	r18
+  6c:	3f 93       	push	r19
+  6e:	1f 93       	push	r17
+  70:	41 e0       	ldi	r20, 0x01	; 1
+  72:	34 2f       	mov	r19, r20
+  74:	2f 91       	pop	r18
+  76:	23 1b       	sub	r18, r19
+  78:	12 2f       	mov	r17, r18
+  7a:	e9 df       	rcall	.-46     	; 0x4e <_binary___example_RawFile_start+0x4e>
+  7c:	2f 91       	pop	r18
+  7e:	1f 91       	pop	r17
+  80:	2f 91       	pop	r18
+  82:	3f 91       	pop	r19
+  84:	0f 93       	push	r16
+  86:	02 2f       	mov	r16, r18
+  88:	3f 91       	pop	r19
+  8a:	2f 91       	pop	r18
+  8c:	23 9f       	mul	r18, r19
+  8e:	20 2d       	mov	r18, r0
+  90:	02 2f       	mov	r16, r18
+  92:	08 95       	ret
+  94:	03 c0       	rjmp	.+6      	; 0x9c <_binary___example_RawFile_start+0x9c>
+  96:	41 e0       	ldi	r20, 0x01	; 1
+  98:	04 2f       	mov	r16, r20
+  9a:	08 95       	ret
+  9c:	87 9b       	sbis	0x10, 7	; 16
+  9e:	fe cf       	rjmp	.-4      	; 0x9c <_binary___example_RawFile_start+0x9c>
+  a0:	13 b3       	in	r17, 0x13	; 19
+  a2:	0f 93       	push	r16
+  a4:	1f 93       	push	r17
+  a6:	2f 93       	push	r18
+  a8:	3f 93       	push	r19
+  aa:	d1 df       	rcall	.-94     	; 0x4e <_binary___example_RawFile_start+0x4e>
+  ac:	2f 91       	pop	r18
+  ae:	1f 91       	pop	r17
+  b0:	2f 91       	pop	r18
+  b2:	3f 91       	pop	r19
+  b4:	0f 93       	push	r16
+  b6:	02 2f       	mov	r16, r18
+  b8:	0f 91       	pop	r16
+  ba:	08 95       	ret
+  bc:	00 00       	nop
+  be:	c4 cf       	rjmp	.-120    	; 0x48 <_binary___example_RawFile_start+0x48>

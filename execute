@@ -1,5 +1,9 @@
 #!/bin/bash
 EXAMPLE_FOLDER=./example
+rm $EXAMPLE_FOLDER/*File
+#./BinaryTranslator > $EXAMPLE_FOLDER/RawFile < $EXAMPLE_FOLDER/LoopFactorial.bin
 ./BinaryTranslator > $EXAMPLE_FOLDER/RawFile < $EXAMPLE_FOLDER/example.bin
+#./BinaryTranslator > $EXAMPLE_FOLDER/RawFile < $EXAMPLE_FOLDER/EmptyExample.bin
 avr-objcopy -I binary -O elf32-avr $EXAMPLE_FOLDER/RawFile $EXAMPLE_FOLDER/ElfFile
 avr-objdump -D $EXAMPLE_FOLDER/ElfFile > $EXAMPLE_FOLDER/DisassemblyFile
+avr-objcopy -I elf32-avr -O ihex $EXAMPLE_FOLDER/ElfFile $EXAMPLE_FOLDER/HexFile
